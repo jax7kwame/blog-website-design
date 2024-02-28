@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+
+ /*font-family: 'Dosis', sans-serif;*/
+ /*font-family: 'Carattere', cursive;*/
+
+ :root {
+   --font-base: 'Dosis', sans-serif;
+ }
+
+
+
+.theme-font {
+  font-family: var(--font-base);
+}
+
+.view-height {
+  min-height: 100vh;
+}
+
+
+/* Navigation Section */
+
+.navbar-bg {
+  background-color: #fca311;
+}
+
+#navigation .logo-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Black Ops One', system-ui;
+  font-size: 1.5em;
+}
+
+#navigation .card-img-top {
+  max-height: 100px;
+  object-fit: cover;
+  border-bottom-right-radius: 35px;
+  border-top-left-radius: 15px;
+  cursor: pointer;
+}
+
+#navigation .card-img-top:hover {
+  transform: scale(1.05);
+}
+
+#navigation .navigation-link {
+  text-decoration: none;
+  color: white;
+}
+
+#navigation .navigation-link:hover {
+  color: #fca311;
+  font-weight: bold;
+}
+
+#navigation li {
+  list-style: none;
+}
+
+/* Favorites Section */
+
+#favorites {
+  /*min-height: 100vh;*/
+  background-color: #e5e5e5;
+}
+
+#favorites .card-img {
+  filter: brightness(50%);
+}
+
+#favorites a {
+  text-decoration: none;
+}
+
+#favorites .card-body .card-title:hover {
+  color: #fca311;
+  font-weight: bold;
+}
+
+#favorites .img-fluid:hover {
+  transform: scale(1.02);
+}
+
+/* This week's Top Highligts */
+
+#latest {
+  min-height: 100vh;
+  background-color: #14213d;
+}
+
+#latest .card-img-top {
+  max-height: 60vh;
+  object-fit: cover;
+}
+
+#latest .card-profile-img {
+  max-height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+#latest a {
+  text-decoration: none;
+}
+
+/* More top reads or highlights */
+
+#more-top-reads {
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+#more-top-reads .card-img {
+  max-height: 60vh;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+#more-top-reads .card-title:hover, .card-text:hover {
+  font-weight: bolder;
+}
+
+.card-btn {
+  border: none;
+  border-radius: 10px;
+  max-width: 50%;
+  font-weight: 500;
+  padding: 3px 12px 3px 12px;
+  font-size: small;
+  background-color: white;
+}
+
+.card-btn:hover {
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #fca311;
+}
+
+/* Subscription */
+
+#subscription {
+  max-height: 100vh;
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#subscription #email {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#subscription #email:hover {
+  border: 1px solid #fca311;
+  color: #fca311;
+}
+
+#subscription .subscription-btn {
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+#subscription .subscription-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* All Categories */
+
+#allCategories {
+  background-color: #000000;
+}
+
+#allCategories .card {
+  border: none;
+  margin: 15px;
+}
+
+#allCategories .card:hover {
+  border: 2px solid #fca311;
+  border-radius: 30px;
+}
+
+#allCategories .card-img-top {
+  border-radius: 27px 27px 0px 30px;
+}
+
+#allCategories .card-title {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#recommended-reads {
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+#recommended-reads .card-img {
+  max-height: 60vh;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+#recommended-reads .card-title:hover, .card-text:hover {
+  font-weight: bolder;
+}
+
+/* Category-articles.html */
+
+#category-articles {
+  min-height: 100vh;
+  background-color: white;
+}
+
+#category-articles .card {
+  border-radius: 30px;
+}
+
+#category-articles .col-md-8 .card-body {
+  background-color: whitesmoke;
+}
+
+#category-articles .card-img-top {
+  max-height: 60vh;
+  object-fit: cover;
+}
+
+#category-articles .card-profile-img {
+  max-height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+#category-articles a {
+  text-decoration: none;
+}
+
+#category-articles .col-md-4 .card {
+  background-color: whitesmoke;
+}
+
+#category-articles .col-md-4 .card-img {
+  filter: brightness(50%);
+}
+
+#category-articles .col-md-4 a {
+  text-decoration: none;
+}
+
+#category-articles .col-md-4 .card-body .card-title:hover {
+  color: #14213d;
+  font-weight: bold;
+}
+
+#category-articles .col-md-4 .img-fluid:hover {
+  transform: scale(1.02);
+}
+
+/* article.html */
+
+#banner .article-img {
+  border-radius: 0px 0px 25px 25px;
+}
+
+#banner .article-img:hover {
+  transform: scale(1.05);
+}
+
+#banner .img-container {
+  margin: 0px 30px 30px 30px;
+}
+
+#article {
+  color: black;
+}
+
+#article .blockquote p {
+  font-style: italic;
+  font-size: medium;
+}
+
+.article-btn {
+  border: none;
+  padding: 10px;
+  margin: auto;
+  background-color: black;
+  color: #fca311;
+  border-radius: 15px 15px 0px 0px;
+  font-weight: 400;
+}
+
+
+/* contact.html */
+#contact {
+  min-height: 100vh;
+  background-color:#14213d;
+  color: white;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/* about.html */
+
+#banner .banner-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.banner-img {
+  max-height: 375px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+  filter: brightness(50%);
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.team-profile-img {
+  height: 15rem;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 15rem;
+}
+
+
+@media (min-width: 760px) {
+  #banner .img-container {
+    margin: 0px 50px 50px 50px;
+  }
+
+  
+}
+
+@media (min-width: 992px) {
+  #banner .img-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #favorites .card-text {
+    display: none;
+  }
+}
